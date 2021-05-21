@@ -2,7 +2,7 @@
 set numohjj=%RANDOM%
 set objectnum=%RANDOM%
 set x34innnnn=%x34-installed%
-set ver=1.9.4.8
+set ver=1.9.5.0
 set processssss=0
 prompt $T $B [Ex-Ex™] platform binary/#programs/#x34-files/$$%ver% ($P$G)
 title x34 installer %ver%
