@@ -2,7 +2,7 @@
 set numohjj=%RANDOM%
 set objectnum=%RANDOM%
 set x34innnnn=%x34-installed%
-set ver=1.9.5.0
+set ver=1.9.5.3
 set processssss=0
 prompt $T $B [Ex-Ex™] platform binary/#programs/#x34-files/$$%ver% ($P$G)
 title x34 installer %ver%
@@ -78,6 +78,10 @@ goto st
  set ts2=Test-2
  set ts3=Test-3
  set ts4=Test-4
+ set ts4=Test-5
+ set ts4=Test-6
+ set ts4=Test-7
+ set ts4=Test-8
  set ts=Test
  set x34root=%Drive%%x34%
  set udir=C:\Users\%USERNAME%
@@ -178,6 +182,7 @@ goto st
  mkdir %tsp6%
  mkdir %tsp7%
  mkdir %tsp8%
+ @rem end of testspace
  cd %bycd%%tsp1%
  mkdir %ts1%
  cd %bycd%%ts1%
@@ -199,6 +204,30 @@ goto st
  cd..
  mkdir %ts4%
  cd %bycd%%ts4%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
  mkdir Test
  mkdir Test-dat
  nul >result.txt
@@ -229,6 +258,30 @@ goto st
  mkdir Test-dat
  nul >result.txt
  cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
  cd..
  cd %bycd%%tsp3%
  mkdir %ts1%
@@ -255,8 +308,31 @@ goto st
  mkdir Test-dat
  nul >result.txt
  cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
  cd..
- set proccess=almost-done
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ cd..
  cd %bycd%%tsp4%
  mkdir %ts1%
  cd %bycd%%ts1%
@@ -282,7 +358,32 @@ goto st
  mkdir Test-dat
  nul >result.txt
  cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
  cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ cd..
+ set proccess=almost-done
  cd %bycd%%tsp5%
  mkdir %ts1%
  cd %bycd%%ts1%
@@ -304,6 +405,30 @@ goto st
  cd..
  mkdir %ts4%
  cd %bycd%%ts4%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
  mkdir Test
  mkdir Test-dat
  nul >result.txt
@@ -334,6 +459,30 @@ goto st
  mkdir Test-dat
  nul >result.txt
  cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
  cd..
  cd %bycd%%tsp7%
  mkdir %ts1%
@@ -356,6 +505,30 @@ goto st
  cd..
  mkdir %ts4%
  cd %bycd%%ts4%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
  mkdir Test
  mkdir Test-dat
  nul >result.txt
@@ -386,7 +559,32 @@ goto st
  mkdir Test-dat
  nul >result.txt
  cd..
+ mkdir %ts5%
+ cd %bycd%%ts5%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
  cd..
+ mkdir %ts6%
+ cd %bycd%%ts6%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts7%
+ cd %bycd%%ts7%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts8%
+ cd %bycd%%ts8%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ cd..
+ @rem end of testspace
  cd %x34root%
  cd %bycd%Testbase
  mkdir Testspace-base
