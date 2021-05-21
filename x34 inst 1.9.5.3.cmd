@@ -78,10 +78,10 @@ goto st
  set ts2=Test-2
  set ts3=Test-3
  set ts4=Test-4
- set ts4=Test-5
- set ts4=Test-6
- set ts4=Test-7
- set ts4=Test-8
+ set ts5=Test-5
+ set ts6=Test-6
+ set ts7=Test-7
+ set ts8=Test-8
  set ts=Test
  set x34root=%Drive%%x34%
  set udir=C:\Users\%USERNAME%
@@ -182,7 +182,7 @@ goto st
  mkdir %tsp6%
  mkdir %tsp7%
  mkdir %tsp8%
- @rem end of testspace
+ @rem Start of testspace
  cd %bycd%%tsp1%
  mkdir %ts1%
  cd %bycd%%ts1%
@@ -682,12 +682,7 @@ goto st
   
  :end
  set proccess=Done
- if "%takebreak%" == "Yes" cd %x34root%\Workspace\Temp
- if "%takebreak%" == "Yes" nul >1.txt
- if "%takebreak%" == "Yes" nul >2.txt
- if "%takebreak%" == "Yes" nul >3.txt
- if "%takebreak%" == "Yes" nul >4.txt
- if "%takebreak%" == "Yes" del *
+ if "%takebreak%" == "Yes" pause
  exit
  goto end
  
