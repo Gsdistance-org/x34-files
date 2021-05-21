@@ -154,6 +154,7 @@ goto st
 
  :classic
  @rem Start of install for x34 classic root
+ setx x34sysver "%ver%"
  cd %Drive%
  mkdir %x34%
  cd %bycd%%x34%
@@ -420,7 +421,6 @@ goto st
   mkdir Certficates
   cd %x34root%
   setx x34-installed "true"
-  setx x34sysver "%ver%"
   setx x34rootenv "%x34root%"
   goto userroot
   @rem End of install for x34 classic root
