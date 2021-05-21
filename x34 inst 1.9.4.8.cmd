@@ -71,6 +71,8 @@ goto st
  set tsp4=Testspace-4
  set tsp5=Testspace-5
  set tsp6=Testspace-6
+ set tsp7=Testspace-7
+ set tsp8=Testspace-8
  set tsp=Testspace
  set ts1=Test-1
  set ts2=Test-2
@@ -174,6 +176,8 @@ goto st
  mkdir %tsp4%
  mkdir %tsp5%
  mkdir %tsp6%
+ mkdir %tsp7%
+ mkdir %tsp8%
  cd %bycd%%tsp1%
  mkdir %ts1%
  cd %bycd%%ts1%
@@ -306,6 +310,58 @@ goto st
  cd..
  cd..
  cd %bycd%%tsp6%
+ mkdir %ts1%
+ cd %bycd%%ts1%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts2%
+ cd %bycd%%ts2%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts3%
+ cd %bycd%%ts3%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts4%
+ cd %bycd%%ts4%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ cd..
+ cd %bycd%%tsp7%
+ mkdir %ts1%
+ cd %bycd%%ts1%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts2%
+ cd %bycd%%ts2%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts3%
+ cd %bycd%%ts3%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ mkdir %ts4%
+ cd %bycd%%ts4%
+ mkdir Test
+ mkdir Test-dat
+ nul >result.txt
+ cd..
+ cd..
+ cd %bycd%%tsp8%
  mkdir %ts1%
  cd %bycd%%ts1%
  mkdir Test
