@@ -4,7 +4,7 @@ set objectnum=%RANDOM%
 set x34innnnn=%x34-installed%
 set ver=1.9.5.3
 set processssss=0
-prompt $T $B [Ex-Ex™] platform binary/#programs/#x34-files/$$%ver% ($P$G)
+prompt $T $B [Ex-Ex] platform binary/#programs/#x34-files/$$%ver% ($P$G)
 title x34 installer %ver%
 
  :echover
@@ -30,7 +30,7 @@ goto st
 @rem                            This is the install script for x34
 @rem        Run the script to Install x34 and it will automaticily install x34-files
 @rem        Running on v1.9.3.2 if you are a devoloper set debug and takebreak to ON/Yes
-@rem        The x34 is copyrighted from [Ex-Ex™]
+@rem        The x34 is copyrighted from [Ex-Ex]
 @rem 
 @rem ######################################################################################
 @rem 
